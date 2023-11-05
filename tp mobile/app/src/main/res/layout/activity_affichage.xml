@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".Affichage">
+
+    <TextView
+        android:id="@+id/textView10"
+        style="@style/st_title"
+        android:layout_width="match_parent"
+        android:layout_height="123dp"
+        android:text="Edition" />
+
+    <SearchView
+        android:id="@+id/svRech_affichage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="recherche ...." />
+
+    <ListView
+        android:id="@+id/lv_affiche"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

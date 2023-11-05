@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="155dp"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="55dp"
+        android:layout_height="67dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/baseline_account_box_24" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="154dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvnum_contact"
+            style="@style/st_title"
+            android:layout_width="336dp"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <LinearLayout
+            android:layout_width="337dp"
+            android:layout_height="41dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/tvnom_contact"
+                android:layout_width="219dp"
+                android:layout_height="41dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/tvprenom_contact"
+                android:layout_width="242dp"
+                android:layout_height="41dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="TextView" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="337dp"
+            android:layout_height="66dp"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <ImageButton
+                android:id="@+id/btnimgCall_contact"
+                android:layout_width="105dp"
+                android:layout_height="59dp"
+                android:layout_weight="1"
+                android:backgroundTint="#00FFFFFF"
+                android:contentDescription="call"
+                app:srcCompat="@drawable/baseline_call_24" />
+
+            <ImageButton
+                android:id="@+id/btnimgEdit_contact"
+                android:layout_width="98dp"
+                android:layout_height="59dp"
+                android:layout_weight="1"
+                android:backgroundTint="#00FFFFFF"
+                android:contentDescription="editi"
+                app:srcCompat="@drawable/baseline_edit_24" />
+
+            <ImageButton
+                android:id="@+id/btnimgDelete_contact"
+                android:layout_width="94dp"
+                android:layout_height="59dp"
+                android:layout_weight="1"
+                android:backgroundTint="#00FFFFFF"
+                android:contentDescription="delete"
+                app:srcCompat="@drawable/baseline_delete_24" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
